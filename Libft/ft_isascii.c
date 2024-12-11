@@ -6,7 +6,18 @@
 /*   By: israelfe <israelfe@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/06 21:21:17 by israelfe          #+#    #+#             */
-/*   Updated: 2024/12/07 00:14:19 by israelfe         ###   ########.fr       */
+/*   Updated: 2024/12/11 16:17:39 by israelfe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int ft_isascii(int c)
+{
+    if (c >= 0 && c <= 127)
+    {
+        return 1; 
+    }
+    else
+    {
+        return 0;
+    }
+}
